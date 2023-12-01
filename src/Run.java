@@ -147,11 +147,19 @@ class student
 
 }
 
+
+
 public class Run
 {
+
     public static void multiply(int a, int b){
         return a * b;
     }
+    public static void adde(int f, int s)
+    {
+        return (s + f);
+    }
+
     public static void main(String[] args)
     {
         student s1 = new student("mohamed", 19, 2022170379);
